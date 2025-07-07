@@ -38,9 +38,10 @@ function App() {
             <h2>Ваши расходы в месяц:</h2>
             <input className='input_rashod' type='number' placeholder='0' />
           </div>
-          
-          <div>
-            <button onClick={calculateResult}>Рассчитать</button>
+
+            <button className='btn' onClick={calculateResult}>Рассчитать</button>
+
+          <div className='result'>
             <h2>Ваш остаток: {result}</h2>
           </div>
 
