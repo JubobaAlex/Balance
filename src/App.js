@@ -10,7 +10,20 @@ function App() {
       </div>
     </header>
 
-    
+    <main>
+      <div>
+
+        <div className='dohod'>
+          <h2>Ваши доходы:</h2>
+          <input type='text'/>
+        </div>
+
+        <div className='rashod'>
+          <h2>Ваши расходы:</h2>
+          <input type='text'/>
+        </div>
+      </div>
+    </main>
     </div>
   );
 }
