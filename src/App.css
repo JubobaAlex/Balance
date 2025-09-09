@@ -9,3 +9,30 @@ header div {
 header h2 {
     color: white;
 }
+
+.dohod , .rashod {
+    background-color: whitesmoke;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.input_dohod, .input_rashod {
+    width: 90%;
+    height: 25px;
+    font-size: 20px;
+}
+.btn {
+    margin-top: 30px;
+    font-size: 30px;
+    background-color: orange;
+    border: 0.5px solid orange;
+    margin-left: 20px;
+    color: white;
+}
+.btn:hover {
+    background-color: rgb(255, 208, 0);
+}
+.result {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
