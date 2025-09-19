@@ -1,15 +1,3 @@
-header div {
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-}
-header h2 {
-    color: white;
-}
-
 .dohod , .rashod {
     background-color: whitesmoke;
     margin-left:20px;
